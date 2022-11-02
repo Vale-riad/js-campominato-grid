@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+}
+header{
+    background-color:red;
+    height:100px;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    background-color: aquamarine;
+    flex-grow: 1;
+    display: flex;
+}
+footer{
+    background-color: pink;
+    height:100px;
+    padding:20px;
+}
+.board{
+    display: flex;
+    flex-wrap:wrap;
+    align-content: flex-start;
+    height: 31.25rem;
+    width: 31.25rem;
+    margin: auto;
+    background-color: bisque;
+}
+.board_number{
+    width: calc(100% / 10);
+    height:calc(100% / 10);
+    border:1px solid black;
+}
+.color{
+    background-color: aqua;
+}
