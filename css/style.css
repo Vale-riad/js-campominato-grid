@@ -9,7 +9,7 @@ body{
     height:100vh;
 }
 header{
-    background-color:red;
+    
     height:100px;
     padding:20px;
     display: flex;
@@ -22,7 +22,7 @@ main{
     display: flex;
 }
 footer{
-    background-color: pink;
+    
     height:100px;
     padding:20px;
 }
@@ -52,4 +52,14 @@ footer{
     width: calc(100% / 7);
     height:calc(100% / 7);
     border:1px solid black;
+}
+.play{
+    border-radius: 5px;
+    padding: 2px 40px;
+    border-color: lightgray;
+    font-size: bold;
+}
+#difficoltà{
+    border-radius: 5px;
+    padding: 3px 40px;
 }
