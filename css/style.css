@@ -57,9 +57,11 @@ footer{
     border-radius: 5px;
     padding: 2px 40px;
     border-color: lightgray;
-    font-size: bold;
+    
+    
 }
 #difficoltà{
     border-radius: 5px;
     padding: 3px 40px;
+    border-color: lightgray;
 }
